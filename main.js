@@ -28,6 +28,7 @@ function save(){
 
   }
   function del(){
+    
     addList.removeChild(b.parentElement);
   }
   console.log('hello')
