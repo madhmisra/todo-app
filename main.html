@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="app">
+    <div class="header"><h1><b>Todo App</b></h1></div>
+    <div class="todo-list" id="list">
+        
+    </div>
+    <div id="input-field">
+      <input class="form-control" type="text" id="todo-text">
+      <button class="btn" onclick="save()"> Save <i class="fa fa-save"></i></button>
+    </div>
+    <div class="button"><button onclick="displayInput()" class="btn">Add <i class="fa fa-plus-square-o" aria-hidden="true"></i></button></div>
+    
+  </div>
+  <div class="footer">
+    <footer><h4><a href="https://github.com/madhmisra"><i class="fa fa-github" style="font-size: 50px;" title="Visit My github"></i></a></h4></footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
